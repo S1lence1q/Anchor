@@ -1,1 +1,1 @@
-{"root":["./src/app.tsx","./src/main.tsx","./src/components/dashboard.tsx","./src/store/useappstore.ts"],"errors":true,"version":"5.6.3"}
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/dashboard.tsx","./src/components/widgets/devicewidget.tsx","./src/components/widgets/routinewidget.tsx","./src/components/widgets/transportwidget.tsx","./src/data/routines.ts","./src/data/schedule.ts","./src/store/useappstore.ts"],"version":"5.6.3"}

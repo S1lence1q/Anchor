@@ -8,10 +8,12 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      injectRegister: 'auto',
+      injectRegister: 'inline',
       manifest: {
         name: 'Anchor',
         short_name: 'Anchor',
+        start_url: '/Anchor/',
+        scope: '/Anchor/',
         description: 'Din intelligente hverdagsassistent',
         theme_color: '#050505',
         background_color: '#050505',
@@ -19,17 +21,17 @@ export default defineConfig({
         orientation: 'portrait',
         icons: [
           {
-            src: '/pwa-192x192.png',
+            src: 'https://s1lence1q.github.io/Anchor/icon-192-v2.png',
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: '/pwa-512x512.png',
+            src: 'https://s1lence1q.github.io/Anchor/icon-512-v2.png',
             sizes: '512x512',
             type: 'image/png'
           },
           {
-            src: '/pwa-512x512.png',
+            src: 'https://s1lence1q.github.io/Anchor/icon-512-v2.png',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'any maskable'
